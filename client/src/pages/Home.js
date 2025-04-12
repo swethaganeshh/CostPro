@@ -29,7 +29,7 @@ const Home = () => {
         </p>
 
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem' }}>
-          <Link to="/register">
+          <Link to="/optimize">
             <button style={{
               padding: '0.8rem 2rem',
               fontSize: '1rem',
@@ -40,11 +40,11 @@ const Home = () => {
               cursor: 'pointer',
               transition: 'background-color 0.3s ease'
             }}>
-              ✍️ Register
+              CostOptimizer
             </button>
           </Link>
 
-          <Link to="/login">
+          <Link to="/optimize">
             <button style={{
               padding: '0.8rem 2rem',
               fontSize: '1rem',
@@ -55,7 +55,7 @@ const Home = () => {
               cursor: 'pointer',
               transition: 'background-color 0.3s ease'
             }}>
-              🔐 Login
+              Report
             </button>
           </Link>
         </div>
