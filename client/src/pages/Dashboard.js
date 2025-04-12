@@ -94,7 +94,7 @@ const Dashboard = () => {
         </div>
       ) : (
         <div style={{ backgroundColor: 'white', padding: '2rem', borderRadius: '12px', boxShadow: '0 0 15px rgba(0,0,0,0.1)' }}>
-          <h2>Welcome to <span style={{ color: '#0088FE' }}>CODEBLITZ</span> | <span style={{ color: '#00C49F' }}>Shilp '25</span></h2>
+          <h2>Welcome to <span style={{ color: '#0088FE' }}>ConsPro</span> | <span style={{ color: '#00C49F' }}>Budget Calculator</span></h2>
           <p>🎯 Ready to start your construction budgeting journey?</p>
           <p>Head over to the <strong>Cost Optimizer</strong> page to begin your estimate!</p>
         </div>

@@ -27,11 +27,8 @@ const Navbar = () => {
         <NavLink to="/" style={({ isActive }) => ({ ...linkStyle, fontWeight: isActive ? 'bold' : 'normal' })}>Home</NavLink>
         <NavLink to="/dashboard" style={({ isActive }) => ({ ...linkStyle, fontWeight: isActive ? 'bold' : 'normal' })}>Dashboard</NavLink>
         <NavLink to="/optimize" style={({ isActive }) => ({ ...linkStyle, fontWeight: isActive ? 'bold' : 'normal' })}>Cost Optimizer</NavLink>
-        <NavLink to="/report" style={({ isActive }) => ({ ...linkStyle, fontWeight: isActive ? 'bold' : 'normal' })}>Report</NavLink>
       </div>
       <div>
-        <NavLink to="/login" style={({ isActive }) => ({ ...linkStyle, fontWeight: isActive ? 'bold' : 'normal' })}>Login</NavLink>
-        <NavLink to="/register" style={({ isActive }) => ({ ...linkStyle, fontWeight: isActive ? 'bold' : 'normal' })}>Register</NavLink>
       </div>
     </nav>
   );
